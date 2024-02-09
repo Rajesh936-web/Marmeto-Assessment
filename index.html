@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Assets_marmeto/marmeto-logo.webp" type="image/x-icon">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>MarMeto Online Store</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container" id="container">
+        <h1 class="head">SELECT YOUR CHOICE</h1>
+        <div class="menu">
+            <button id="men" class="button active men" onclick="openTab(event, 'men')"><img src="./Assets_marmeto/icons8-boy-48.png" alt="logo" class="boy-img">Men</button>
+            <button id="women" class="button women" onclick="openTab(event, 'women')"><img src="./Assets_marmeto/icons8-girl-48.png" alt="logo" class="boy-img">Women</button>
+            <button id="kids" class="button kids" onclick="openTab(event, 'kids')"><img src="./Assets_marmeto/icons8-boy-48.png" alt="logo" class="boy-img">Kids</button>
+        </div>
+
+        <div id="productCards" class="product-cards"></div>
+    </div>
+    
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

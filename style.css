@@ -1,0 +1,199 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900');
+
+/* body style */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+/* whole container box */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* main head style */
+
+.head {
+  font-size: 30px;
+}
+
+/* buttons normal style */
+
+.button {
+  width: 180px;
+  height: 30px;
+  /* padding: 10px; */
+  cursor: pointer;
+  margin: -1px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* button active mode */
+
+.button.active {
+  background-color: #000000;
+  border-color: #000000;
+  color: #fff;
+}
+
+
+
+.boy-img {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 3px;
+  left: -3px;
+}
+
+/* cards design */
+
+.product-cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* images styling */
+.productImage {
+  height: 240px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+}
+
+/* image text */
+.image-text {
+  margin-top: -240px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  width: 85px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* title branding */
+
+.titleAndBrand {
+  display: flex;
+  margin-top: 190px;
+  align-items: center;
+  width: 90%;
+}
+
+
+/* Title styling  */
+.title {
+  font-size: 13px;
+  margin-left: 12px;
+  margin-right: 10px;
+  width: 76px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.title1 {
+  font-size: 13px;
+  margin-left: 12px;
+  margin-right: 10px;
+  width: 90px;
+}
+
+.brand {
+  font-size: 12px;
+}
+
+/* price info style */
+.priceInfo {
+  display: flex;
+  font-size: 14px;
+  margin-left: 12px;
+  margin-top: -20px;
+}
+
+.straik {
+  color: #808080;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.red {
+  color: #ff0000;
+  margin-left: 10px;
+}
+
+/* add card button */
+.cartBtn {
+  margin: 8px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: -10px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.check {
+  display: none;
+}
+
+.no-badge {
+  visibility: hidden;
+}
+
+
+/* media quieries */
+@media screen and (max-width:767px) {
+  .head {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .menu {
+    display: flex;
+    width: 90%;
+  }
+
+  .priceInfo p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    width: 110px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+}
